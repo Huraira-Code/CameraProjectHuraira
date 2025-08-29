@@ -1,0 +1,20 @@
+# Settings to manage and configure a Firebase App Hosting backend.
+# https://firebase.google.com/docs/app-hosting/configure
+
+runConfig:
+  # Increase this value if you'd like to automatically spin up
+  # more instances in response to increased traffic.
+  maxInstances: 20
+  # The maximum amount of time, in seconds, that a server can spend
+  # responding to a single request.
+  timeoutSeconds: 60
+  # The minimum number of instances to keep running, even when idle.
+  # Set to a value higher than 0 to reduce cold starts.
+  minInstances: 1
+
+
+# Specifies the location of the Next.js application.
+# The `build` script in `package.json` needs to output files to this directory.
+# This can be configured in `next.config.ts`.
+# https://nextjs.org/docs/app/api-reference/next-config-js/distDir
+# outdir: .next

@@ -1,0 +1,9 @@
+# Environment-specific settings for the 'live' deployment.
+# These settings will be used when deploying to the 'live' channel.
+
+# https://firebase.google.com/docs/app-hosting/configure-environments
+
+# Environment variables for the live environment.
+env:
+  - variable: NEXT_PUBLIC_SITE_URL
+    value: https://click.wegwerpcamera.nl

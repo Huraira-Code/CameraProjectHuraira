@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "target": "snapmoment-6xfqd",
+    "cleanUrls": true,
+    "source": ".",
+    "frameworksBackend": {
+      "region": "us-central1"
+    }
+  }
+}
